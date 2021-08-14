@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="registro.css">
+
+	<title>FORMULARIO DE REGISTRO</title>
+</head>
+<body>
+	 <div class="inicio" >
+<div class="logo">
+<a href="index.html"><img class="img" ></a>
+</div>
+  </div>
+<form action="enviar.php" method="post">
+	<h2>REGISTRATE</h2>
+	<input type="text" name="nombre" placeholder="Digite su nombre" required>
+	<input type="phone" name="telefono" placeholder="Digite su telefono" required>
+	<input type="email" name="correo" placeholder="Escriba su correo" required>
+	<input type="password" name="contraseña" placeholder="Escriba su contraseña" required>
+	<input type="password" name="confirmarContraseña" placeholder="Confirme su contraseña" required>
+	<input type="text" name="nombre" placeholder="Seleccione fecha de nacimiento" required disabled>
+	<input type="date">
+	<input type="text" name="nombre" placeholder="Seleccione una foto de perfil" required disabled>
+	<input type="file">
+	
+
+	<input type="submit" value="REGISTRARSE" name="enviar" >
+</form>
+<p>
+	<a href="enviar.php"></a>
+</p>
+</body>
+
+</html>
